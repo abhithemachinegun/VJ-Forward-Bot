@@ -62,7 +62,7 @@ if __name__ == "__main__":
                 current += 1
                
     async def main():
-        await VJBot.start()
+        await VJBot.startu()
         bot_info  = await VJBot.get_me()
         await restart_forwards(VJBot)
         print("Bot Started.")
