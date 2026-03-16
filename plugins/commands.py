@@ -38,7 +38,7 @@ main_buttons = [[
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
-@Client.on_message(filters.private & filters.command(['start']))
+@Client.on_message(filters.private & filters.command(['startu']))
 async def start(client, message):
     user = message.from_user
     if not await db.is_user_exist(user.id):
